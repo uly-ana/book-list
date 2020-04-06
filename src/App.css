@@ -1,0 +1,37 @@
+body {
+  background-color: #436372;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body h1, h4{
+  text-align: center;
+    color: #fcd7b6;
+}
+
+.book {
+  display: grid;
+  grid-template-columns: auto 1fr ;
+  margin: 2rem;
+  color: #fcd7b6;
+}
+
+.book h5 {
+   color: #a3bbc8
+  }
+
+#img {
+  width: 150px;
+  padding-right: 10px;
+}
+
+#img:hover {
+  transition: 0.3s;
+  opacity: 0.7;
+}
+
+.book button {
+  background-color: #a3bbc8;
+  color: #243f4d;
+  border-radius: 1px;
+  margin: 10px 10px 0px 0px;
+}
